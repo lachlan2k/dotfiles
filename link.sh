@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 NC=$(printf '\033[0m')
