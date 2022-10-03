@@ -28,7 +28,7 @@ echo "${BOLD}Dotfiles"
 echo
 
 section ZSH
-ln_ ~/.dotfiles/zsh/.oh-my-zsh ~/.oh-my-zsh
+ln_ ~/.dotfiles/zsh/ohmyzsh ~/.oh-my-zsh
 ln_ ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln_ ~/.dotfiles/zsh/.zshenv ~/.zshenv
 
@@ -36,7 +36,7 @@ section tmux
 ln_ ~/.dotfiles/tmux/.tmux ~/.tmux
 
 ln_ ~/.dotfiles/tmux/.tmux/.tmux.conf ~/.tmux.conf
-ln_ ~/.dotfiles/tmux/.tmux.conf.local ~/.tmux.conf.local
+ln_ ~/.dotfiles/tmux/.tmux/.tmux.conf.local ~/.tmux.conf.local
 
 echo
 echo "${BOLD}All done!"
